@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CreateDestination"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/destination" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add a new destination"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/destination_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Destination Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/x_coordinate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="x coordinate"
+            android:inputType="textPersonName|numberDecimal" />
+
+        <EditText
+            android:id="@+id/y_coordinate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="y coordinate"
+            android:inputType="textPersonName|numberDecimal" />
+
+        <Button
+            android:id="@+id/add_destination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add new destination" />
+    </LinearLayout>
+</ScrollView>
